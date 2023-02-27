@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex display 2 </title>
+    <style>
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .container {
+
+            height: fit-content;
+            width: 240px;
+            margin: 50px;
+            margin-top: 70px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: absolute;
+            left: 30px;
+        }
+
+        .container3 {
+
+        height: fit-content;
+        width: 240px;
+        margin: 50px;
+        margin-top: 70px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: absolute;
+        right: 30px;
+
+
+
+        }
+
+
+        .container:hover {
+            width: 280px;
+           height: 433px;
+           transition: 0.15s;
+           left: 10px;
+        }
+
+        .container:not(:hover) {
+             
+             transition: 0.15s;
+         }
+
+         
+        .container:not(:hover) #img1 {
+            transition: 0.15s;
+        }
+            
+        .container:hover #img1 {
+            width: 280px; 
+            transition: 0.15s;
+        }
+
+        .container3:hover {
+            width: 280px;
+           height: 433px;
+           transition: 0.15s;
+           right: 10px;
+        }
+
+        .container3:hover #img1 {
+            width: 280px; 
+            transition: 0.15s;
+        }
+
+        .container3:not(:hover) {
+             
+             transition: 0.15s;
+         }
+
+         
+        .container3:not(:hover) #img1 {
+            transition: 0.15s;
+        }
+
+        .container2:hover {
+            width: 300px;
+           height: 450px;
+           transition: 0.15s;
+        }
+
+        .container2:hover #img2 {
+            width: 300px; 
+            transition: 0.15s;
+        }
+
+        .container2:not(:hover) {
+             
+             transition: 0.15s;
+         }
+
+         
+        .container2:not(:hover) #img2 {
+            transition: 0.15s;
+        }
+
+        
+
+        #img1{
+            width: 240px;
+        }
+
+        /* #img1:hover{
+            width: 280px;
+        }  */
+
+        /* .img:hover{
+            width: fit-content;
+        } */
+
+        .heading , .text{
+            margin: 20px;
+        }
+
+        .container2{
+
+        height: fit-content;
+        width: 260px;
+        margin: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+
+        }
+
+        #img2{
+            width: 260px;
+        }
+
+        #con{
+            margin-top: 65px;
+        }
+
+        /* .container:hover{
+
+           width: 280px;
+           height: 433px;
+           transition: 0.15s;
+
+        } */
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+    <div class="container" >
+
+        <img class="imagehd" id="img1" src="wp2707526.jpg" >
+   
+        <h2 class="heading">
+
+            Mesarati Launches its New Model 
+
+        </h2>
+
+        <p class="text">
+
+            After the new launch of mercedes g class,
+            <br> Mesarati has set up to launch its new A20 model 
+            <br> which is grabing amazing hype among investors 
+            <br> and its fanbase too...
+
+        </p>
+
+        
+        
+    </div>
+
+    <div class="container2" >
+
+        <div class="img">
+
+            <img id="img2" src="btc news.jpg" >
+   
+        </div>
+
+        <h2 class="heading">
+
+            BTC Crashes to 20,000 $  
+
+        </h2>
+
+        <p class="text">
+
+            This weak was a nightmare for long term investors
+            <br> as bitcoin crashed all the way to new lower lows
+            <br> of almost 20,000$. This also resulted in a
+            <br> big liquidation of a hedge fund of 3AC (Arrow) Funds
+        </p>
+        
+    </div>
+
+    <div class="container3" id="con">
+
+        <div class="img">
+
+            <img id="img1" src="Pushpa-the-rule-part-2.jpg" >
+   
+        </div>
+
+        <h2 class="heading">
+
+            Pushpa part-2 release date confirmed 
+
+        </h2>
+
+        <p class="text">
+
+            Recent Blockbuster Pushpa's director Sukumar 
+             Confirmed the release date of 2<super>nd</super> part
+            <br> of Pushpa to be released on 25<super>th</super> July
+             of this year. This made Huge Hype among Fans of Pushpa...   
+
+        </p>
+        
+    </div>
+
+    </div>
+
+
+</body>
+<script>
+    let conatinerDono = document.getElementsByClassName(container)
+    
+
+</script>
+</html>
